@@ -1,0 +1,73 @@
+/* ------------------------------- */
+    /* Experience | EXPERIENCE */
+/* ------------------------------ */
+
+#experience {
+    .experienceContent {
+        margin-top: 7em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: #E1E8F3;
+    
+        .izq {
+            width: 50%;
+            height: 50vh;
+            background-image: url('../IMG/test.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    
+        .der {
+            width: 50%;
+            flex-wrap: wrap;
+    
+            .textExperience {
+                width: 100%;
+    
+                h3 {
+                    font-size: 3.3em;
+                    letter-spacing: 0.01em;
+                    color: $tituloSeccion;
+                }
+    
+                p {
+                    font-size: 1.7em;
+                    line-height: 1.4em;
+                    color: $textOne;
+                    margin: 1.5em 0px;
+                }
+            }
+    
+            .doctor {
+                display: flex;
+                align-items: center;
+    
+                img {
+                    margin-right: 1.25em;
+                }
+    
+                .doctorText {
+                    display: flex;
+                    flex-wrap: wrap;
+    
+                    h4 {
+                        font-size: 1.5em;
+                        color: $tituloSeccion;
+                    }
+    
+                    .stars {
+                        margin-top: 0.5em;
+                        width: 100%;
+    
+                        i {
+                            font-size: 1.25em;
+                            color: #FF902E;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

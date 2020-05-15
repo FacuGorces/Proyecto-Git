@@ -1,0 +1,75 @@
+/* -------------------------- */
+    /* HOME | INICIO */
+/* -------------------------- */
+
+#home {
+    width: 100%;
+    display: flex;
+    min-height: 50vh;
+    max-height: 60vh;
+
+    .izq {
+        width: 40%;
+        background: #023DA5;
+
+        .textHome {
+            width: 100%;
+            padding: 7em 5em;
+            color: $blanco;
+
+            .titleTopHome {
+                display: flex;
+                align-items: center;
+
+                hr {
+                    border: 1px solid $blanco;
+                    height: 0px;
+                    width: 40px;
+                    display: inline-block;
+
+                }
+
+                p {
+                    font-size: 1.25em;
+                    text-transform: uppercase;
+                    padding-left: 0.6em;
+                }
+            }
+        }
+
+        .title {
+            font-size: 5em;
+            text-transform: capitalize;
+            letter-spacing: 0.01em;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.5em;
+            display: inline-block;
+            margin: 1.5em 0px;
+            line-height: 1.7em;
+        }
+
+        .btnHome {
+            display: inline-block;
+            color: #fff;
+            font-size: 1.5em;
+            padding: 1em 1.5em;
+            background: $blueTwo;
+            cursor: pointer;
+            transition: background .3s ease;
+
+            &:hover {
+                background: rgba(#002E7E, 0.6);
+            }
+        }
+    }
+
+    .der {
+        width: 60%;
+        background-image: url('../IMG/fondo-Inicio.png');
+        background-size: cover;
+        background-position: center;
+    }
+}

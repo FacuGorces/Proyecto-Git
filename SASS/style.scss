@@ -1,0 +1,111 @@
+/* -------------------------- */
+        /* VARIABLES */
+/* -------------------------- */
+
+/* FUENTES */
+$fuentePrimaria: 'Fira Sans';
+$sizeFont: 12px;
+
+/* COLORES */
+$tituloSeccion: #05183A;
+$textOne: #666769;
+$textTwo: #303030;
+$blanco: #fff;
+$blueOne: #033a99;
+$blueTwo: #002E7E;
+
+/* -------------------------- */
+        /* GENERALES */
+/* -------------------------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fuentePrimaria;
+    font-size: $sizeFont;
+}
+
+.container {
+    width: 90%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.titleTop {
+    font-size: 1.25em;
+    letter-spacing: 0.01em;
+    color: #94a1b8;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.titleSection {
+    font-size: 3em;
+    letter-spacing: 0.01em;
+    color: $tituloSeccion;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+hr {
+    width: 6em;
+    display: inline-block;
+    border: 1px solid $blueOne;
+}
+
+.titleCenter { text-align: center; }
+
+.btnBook {
+    display: inline-block;
+    background: #013DA5;
+    font-size: 1.5em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    transition: background .3s ease;
+
+    &:hover {
+        background: rgba(#013DA5, 0.9);
+    }
+}
+
+img {
+    vertical-align: top;
+}
+
+/* -------------------------- */
+    /* ARCHIVOS EXTERNOS */
+/* -------------------------- */
+
+@import 'header';
+
+@import 'home';
+
+@import 'iconsHome';
+
+@import 'gallery';
+
+@import 'experience';
+
+@import 'working';
+
+@import 'team';
+
+@import 'news';
+
+@import 'footer';
+
+@import 'responsiveDesign';

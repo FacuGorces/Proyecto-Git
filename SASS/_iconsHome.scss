@@ -1,0 +1,39 @@
+/* -------------------------------- */
+/* ICONS HOME | ICONOS DEL INCIO */
+/* ------------------------------- */
+
+#iconsHome {
+    margin-top: 3em;
+
+    .container {
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .icon {
+                display: flex;
+                align-items: center;
+
+                .iconIMG {
+                    margin-right: 1.5em;
+                }
+
+                .iconText {
+                    h2 {
+                        font-size: 2em;
+                        letter-spacing: 0.025em;
+                        color: $tituloSeccion;
+                        margin-bottom: 0.6em;
+                    }
+
+                    p {
+                        font-size: 1.3em;
+                        color: $textOne;
+                        line-height: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}

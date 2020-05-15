@@ -1,0 +1,143 @@
+/* -------------------------------- */
+    /* FOOTER | PIE DE PAGINA */
+/* ------------------------------- */
+
+footer {
+    margin-top: 5em;
+    padding: 2em 0px;
+    background: $blueOne;
+    color: $blanco;
+
+    .widgets {
+        width: 80%;
+        margin: auto;
+        padding-top: 4em;
+        display: flex;
+
+        .widget {
+            width: 25%;
+
+            .titleWidget {
+                font-size: 2.25em;
+                font-weight: bold;
+                margin-bottom: 1.25em;
+            }
+
+            &.aboutUs {
+                p {
+                    margin: 1em 0px;
+                    font-size: 1.5em;
+                    font-weight: normal;
+                    line-height: 1.5em;
+                }
+
+                .footerRDS {
+                    a {
+                        font-size: 1.5em;
+                        color: $blanco;
+                        margin-right: 0.7em;
+                    }
+                }
+            }
+
+            &.links {
+                ul {
+                    li {
+                        margin-bottom: 2.5em;
+
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+
+                        a {
+                            color: $blanco;
+                            font-size: 1.5em;
+                            border-bottom: 1px solid transparent;
+                            transition: border-bottom 250ms ease;
+
+                            &:hover {
+                                border-bottom: 1px solid $blanco;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.blog {
+                .news {
+                    .new {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 1em;
+
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+
+                        .newIMG {
+                            margin-right: 1em;
+                            img {
+                                width: 64px;
+                            }
+                        }
+
+                        .newInfo {
+                            a {
+                                h5 {
+                                    color: $blanco;
+                                    font-size: 1.6em;
+                                }
+                            }
+
+                            p {
+                                margin-top: 0.25em;
+                                font-size: 1.15em;
+                               color: rgba(#fff, 0.5);
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.newsletter {
+                form {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1em;
+
+                    input[type="text"] {
+                        font-family: $fuentePrimaria;
+                        width: 90%;
+                        padding: 1em;
+                        background: $blueTwo;
+                        color: $blanco;
+                        border: none;
+                    }
+
+                    button {
+                        padding: 1em;
+                        background: $blanco;
+                        border: none;
+
+                        i {
+                            color: $blueTwo;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 1.15em;
+                    color: rgba(#fff, 0.5);
+                    text-align: end;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        margin-top: 7em;
+        font-size: 1.15em;
+        color: rgba(#fff, 0.5);
+        text-align: center;
+    }
+}

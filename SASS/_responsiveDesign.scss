@@ -1,0 +1,382 @@
+/* -------------------------- */
+    /* RESPONSIVE DESIGN */
+/* -------------------------- */
+
+@media screen and (max-width: 1585px) {
+    /* WORKING | TRABAJO */
+    #working {
+        .container {
+            .workingContent {
+                width: 90%;
+            }
+        }
+    }
+
+    /* TEAM | EQUIPO */
+    #team {
+        .container {
+            .doctors {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1469px) {
+    /*  HOME | INCIO */
+    #home {
+        min-height: 70vh;
+        .izq {
+            width: 50%;
+        }
+    }
+    /*  Experience | EXPERIENCE */
+    #experience {
+        .experienceContent {
+            .izq {
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1461px) {
+    /*  HEADER | MENU DE NAVEGACION */
+    header {
+        .menuComputer {
+            .container {
+                .menuLeft {
+                    .logo {
+                        margin-right: 1em;
+                    }
+
+                    ul {
+                        li {
+                            a {
+                                padding: 0px 0.5em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* FOOTER | PIE DE PAGINA */
+    footer {
+        .widgets {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 1408px) {
+    /* WORKING | TRABAJO */
+    #working {
+        .container {
+            .workingContent {
+                width: 100%;
+
+                .izq {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    /* NEWS | NOTICIAS */
+    #news {
+        .news {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    /* ------------------------------------- */
+        /* ICONS HOME | ICONOS DEL INCIO */
+    /* ------------------------------------ */
+
+    #iconsHome {
+        .container {
+            .icons {
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1324px) {
+    /* GALLERY | GALERIA */
+    #gallery {
+        .container {
+            .gallery {
+                flex-wrap: wrap;
+
+                .photo {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1293px) {
+    /*  HOME | INCIO */
+    #home {
+        .izq {
+            width: 60%;
+        }
+    }
+
+    /* NEWS | NOTICIAS */
+    #news {
+        .news {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .new {
+                width: 50%;
+
+                &:last-child {
+                    margin-top: 3em;
+                }
+            }
+        }
+    }
+
+    /* FOOTER */
+    footer {
+        .widgets {
+            flex-wrap: wrap;
+
+            .widget {
+                width: 50%;
+
+                &.blog,
+                &.newsletter {
+                    margin-top: 3em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1241px) {
+    /* HEADER | MENU DE NAVEGACION */
+    header {
+        .menuComputer {
+            display: none;
+        }
+
+        .menuMovil {
+            display: block;
+        }
+    }
+
+    #home {
+        margin-top: 99px;
+    }
+
+    /*  Experience | EXPERIENCE */
+    #experience {
+        .experienceContent {
+            .izq {
+                width: 70%;
+            }
+        } 
+    }
+
+    /* WORKING | TRABAJO */
+    #working {
+        .container {
+            .workingContent {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .izq,
+                .der {
+                    margin: auto;
+                }
+
+                .izq {
+                    width: 100%;
+
+                    .izqContainer {
+                        flex-wrap: wrap;
+
+                        img {
+                            display: inline-block;
+                            margin: 0px auto;
+                            width: 100% !important;
+                        }
+
+                        .izqContent,
+                        .derContent {
+                            width: 100%;
+                        }
+
+                        .derContent {
+                            margin-top: 3em;
+                        }
+                    }
+                }
+
+                .der {
+                    margin-top: 3em;
+                }
+            }
+        }
+    }
+
+    /* TEAM | EQUIPO */
+    #team {
+        .container {
+            .doctors {
+                .doctor {
+                    width: 33%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    /*  HOME | INCIO */
+    #home {
+        .izq {
+            width: 70%;
+        }
+    }
+
+    /*  Experience | EXPERIENCE */
+    #experience {
+        .experienceContent {
+            flex-wrap: wrap;
+
+            .izq {
+                width: 100%;
+            }
+    
+            .der {
+                width: auto;
+                padding: 3em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1091px) {
+    /*  HOME | INCIO */
+    #home {
+        .der {
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 924px) {
+    /*  HOME | INCIO */
+    #home {
+        .izq {
+            width: 100%;
+
+            .textHome {
+                padding: 7em 7em;
+            }
+        }
+        .der {
+            width: 0%;
+        }
+    }
+
+    /*  GALLERY | GALERIA */
+    #gallery {
+        .container {
+            .gallery {
+                .photo {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    /* NEWS | NOTICIAS */
+    #news {
+        .news {
+            width: 100%;
+            .new {
+                width: 100%;
+                margin-top: 3em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 659px) {
+    /* HOME | INCIO */
+    #home {
+        .izq {
+            .textHome {
+                padding: 3em;
+
+                .title {
+                    font-size: 4em;
+                }
+            }
+        }
+    }
+
+    /* ICONS HOME */
+    #iconsHome {
+        .container {
+            .icons {
+                .icon {
+                    margin-top: 3em;
+
+                    &:nth-child(1) {
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    } 
+
+    /*  GALLERY | GALERIA */
+    #gallery {
+        .container {
+            .gallery {
+                .photo {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    /* TEAM | EQUIPO */
+    #team {
+        .container {
+            .doctors {
+                .doctor {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    /* FOOTER */
+    footer {
+        .container {
+            .widgets {
+                width: 100%;
+
+                .widget {
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 3em;
+                }
+            }
+        }
+    }
+}
